@@ -1,0 +1,27 @@
+{
+  "name": "apilivrariaaula",
+  "version": "1.0.0",
+  "description": "ApiRest desenvolvida na aula de PW3 referente a uma loja digital de livros",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "PWIII",
+    "Etec",
+    "de",
+    "Barueri",
+    "Livraria",
+    "Api-Rest"
+  ],
+  "author": "Cristian Galvão",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "fs": "^0.0.1-security",
+    "multer": "^1.4.4",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.16.1"
+  }
+}
